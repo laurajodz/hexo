@@ -1,5 +1,8 @@
-[context.production]
-test = "this is a test on master"
+#[context.production]
+#test = "this is a test on master"
 
-[context.test-toml]
-test = "this is a test on the branch toml-test"
+#[context.test-toml]
+#test = "this is a test on the branch toml-test"
+
+[content.production.environment]
+  test = "value"
