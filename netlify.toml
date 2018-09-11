@@ -4,5 +4,5 @@
 #[context.test-toml]
 #test = "this is a test on the branch toml-test"
 
-[content.production.environment]
+[context.production.environment]
   test = "value"
