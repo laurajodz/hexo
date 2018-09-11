@@ -3,6 +3,3 @@
 
 #[context.test-toml]
 #test = "this is a test on the branch toml-test"
-
-[context.production.environment]
-  test = "value"
